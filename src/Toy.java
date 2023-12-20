@@ -1,9 +1,9 @@
 
 public class Toy {
-    private int id;                     // id игрушки
-    private String name;                // название
-    private int quantity;               // количество
-    private double frequency;           // частота выпадения
+    private int id;
+    private String name;
+    private int quantity;
+    private double frequency;
 
 
     public Toy(int id, String name, int quantity, double frequency) {

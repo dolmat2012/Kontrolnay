@@ -29,7 +29,7 @@ public class Toyshop {
         prizeToys.clear();
 
         for (Toy toy : toys) {
-            double random = Math.random() * 100;
+            double random = Math.random() * 110;
             if (random < toy.getFrequency()) {
                 prizeToys.add(toy);
             }
@@ -45,12 +45,12 @@ public class Toyshop {
                 writer.write(prizeToy.getName() + "\n");
                 writer.close();
             } catch (IOException e) {
-                System.out.println("Ошибка при записи в файл игрушки");
+                System.out.println("Ошибка записи в файл!");
             }
 
             return prizeToy;
         } else {
-            System.out.println("Все игрушки кончились");
+            System.out.println("Извините к сожалению игрушек больше нет");
             return null;
         }
     }

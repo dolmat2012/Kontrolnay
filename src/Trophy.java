@@ -6,7 +6,7 @@ public class Trophy {
         Toy toy2 = new Toy(2, "Коляска", 15, 10);
         Toy toy3 = new Toy(3, "Куклу", 150, 90);
         Toy toy4 = new Toy(3, "Юла", 36, 30);
-        Toy toy5 = new Toy(3, "Пластилин", 120, 52);
+        Toy toy5 = new Toy(3, "Расскраски", 120, 52);
         Toy toy6 = new Toy(3, "Игрушечный телефон", 560, 25);
 
         store.addToy(toy1);
